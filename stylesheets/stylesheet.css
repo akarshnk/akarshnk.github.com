@@ -143,10 +143,13 @@ a.button small {
   font-size: 11px;
 }
 header a.button {
+  background: none repeat scroll 0 0 transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding-left: 35px;
   position: absolute;
   right: 0;
   top: 0;
-  background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
 aside a.button {
   width: 138px;
